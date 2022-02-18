@@ -1,0 +1,63 @@
+.card-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+
+body {
+  font-family: poppins;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 238px;
+  height: 233px;
+  margin: 0px 0px;
+  flex-direction: row;
+  left: 50%;
+  top: 50%;
+  border: 1px solid #cad0d2;
+  border-radius: 4px;
+}
+
+.trial {
+  padding: 45px;
+  margin: 5px 0;
+  font-size: 17px;
+  text-align: center;
+}
+
+.emoji {
+  width: 19, 68px;
+  height: 37px;
+  font-size: 32px;
+  margin-bottom: -38px;
+}
+
+.preco {
+  color: #030505;
+  background-color: #94a3a8;
+  padding: 13px, 97px, 13px, 97px;
+  width: 238px;
+  height: 50px;
+  top: 233px;
+  margin: 185px -240px;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid gray;
+}
+
+.medalha {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: auto;
+}
+
+.raio {
+  padding: 0% 0px;
+  margin-left: 15px;
+}
